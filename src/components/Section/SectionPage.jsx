@@ -3,9 +3,11 @@ import './SectionPage.css'
 import img1 from './section-img/img.jpg'
 import img2 from './section-img/img1.jpg'
 import img3 from './section-img/img2.jpg'
-import img5 from './section-img/img4.jpg'
-import img6 from './section-img/img5.jpg'
+import img4 from './section-img/img4.jpg'
+import img5 from './section-img/img5.jpg'
+import img6 from './section-img/img6.jpeg'
 import img8 from './section-img/img7.jpg'
+import img7 from './section-img/img3.jpg'
 const RotatingGallery = () => {
   const imageContainerRef = React.useRef(null);
   let x = 0;
@@ -37,7 +39,7 @@ const RotatingGallery = () => {
         <img src={img3} alt="" />
         </span>
         <span style={{ "--i": 4 }}>
-        <img src={img2} alt="" />
+        <img src={img4} alt="" />
         </span>
         <span style={{ "--i": 5 }}>
         <img src={img5} alt="" />
@@ -46,7 +48,7 @@ const RotatingGallery = () => {
         <img src={img6} alt="" />
         </span>
         <span style={{ "--i": 7 }}>
-        <img src={img5  } alt="" />
+        <img src={img7} alt="" />
         </span>
         <span style={{ "--i": 8 }}>
         <img src={img8} alt="" />

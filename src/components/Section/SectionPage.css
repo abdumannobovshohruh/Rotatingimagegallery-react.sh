@@ -51,11 +51,11 @@ body {
   }
   
   #prev {
-    left: 20%;
+    left: -9%;
   }
   
   #next {
-    right: 20%;
+    right: -9%;
   }
   
   .btn:hover {
